@@ -1,18 +1,18 @@
 package gildedrose.items;
 
-public class AgedBrieItem extends Item {
+public class AgedBrieItem extends DefaultItem {
 
     public AgedBrieItem(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
     }
 
-    public void updateQualityForItems(Item item) {
+    public void updateQualityForItems() {
 
-        if (itemQualityIsLessThan50(item)) {
-            increaseItemQualityBy(item, 1);
+        if (this.getQuality() < 50) {
+            this.setQuality(this.getQuality() + 1);
 
-            if (itemSellinIsLessThan(item, 0)) {
-                increaseItemQualityBy(item, 1);
+            if (this.getSellIn() < 0) {
+                this.setQuality(this.getQuality() + 1);
             }
         }
 

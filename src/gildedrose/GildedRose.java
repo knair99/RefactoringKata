@@ -15,8 +15,8 @@ public class GildedRose {
     public void adjustQualityAndSellinForItems() {
 
         for (Item item : items) {
-            item.updateSellInForItems(item);
-            item.updateQualityForItems(item);
+            item.updateSellInForItems();
+            item.updateQualityForItems();
         }
 
     }

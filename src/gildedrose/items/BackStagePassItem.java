@@ -1,24 +1,24 @@
 package gildedrose.items;
 
-public class BackStagePassItem extends Item {
+public class BackStagePassItem extends DefaultItem {
 
     public BackStagePassItem(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
     }
 
-    public void updateQualityForItems(Item item) {
-        if (itemQualityIsLessThan50(item)) {
+    public void updateQualityForItems() {
+        if (this.getQuality() < 50) {
 
-            increaseItemQualityBy(item, 1);
+            this.setQuality(this.getQuality() + 1);
 
-            if (itemSellinIsLessThan(item, 0)) {
-                item.setQuality(0);
+            if (this.getSellIn() < 0) {
+                this.setQuality(0);
 
-            } else if (itemSellinIsLessThan(item, 6)) {
-                increaseItemQualityBy(item, 2);
+            } else if (this.getSellIn() < 6) {
+                this.setQuality(this.getQuality() + 2);
 
-            } else if (itemSellinIsLessThan(item, 11)) {
-                increaseItemQualityBy(item, 1);
+            } else if (this.getSellIn() < 11) {
+                this.setQuality(this.getQuality() + 1);
             }
         }
     }

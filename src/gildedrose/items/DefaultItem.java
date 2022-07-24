@@ -2,18 +2,49 @@ package gildedrose.items;
 
 import static gildedrose.GildedItems.SULFURAS_HAND_OF_RAGNAROS;
 
-public class DefaultItem extends Item {
+public class DefaultItem implements Item {
+
+    public String name;
+    public int sellIn;
+    public int quality;
+
+
     public DefaultItem(String name, int sellIn, int quality) {
-        super(name, sellIn, quality);
+        this.name = name;
+        this.sellIn = sellIn;
+        this.quality = quality;
     }
 
-    public void updateQualityForItems(Item item) {
-        if (!SULFURAS_HAND_OF_RAGNAROS.equals(item.getName()) && itemQualityIsGreaterThan(item, 0)) {
-            decreaseItemQualityBy(item, 1);
+    public void updateQualityForItems() {
+        if (!SULFURAS_HAND_OF_RAGNAROS.equals(this.name) && this.getQuality() > 0 ) {
+            this.setQuality(this.getQuality() - 1);
 
-            if (itemQualityIsGreaterThan(item, 0) && itemSellinIsLessThan(item, 0)) {
-                decreaseItemQualityBy(item, 1);
+            if (this.getQuality() > 0 && this.getSellIn() < 0) {
+                this.setQuality(this.getQuality() - 1);
             }
         }
     }
+
+    public void updateSellInForItems() {
+        if (!SULFURAS_HAND_OF_RAGNAROS.equals(this.name)) {
+            this.setSellIn(this.getSellIn() - 1);
+        }
+    }
+
+    public int getSellIn() {
+        return sellIn;
+    }
+
+    public void setSellIn(int sellIn) {
+        this.sellIn = sellIn;
+    }
+
+    public int getQuality() {
+        return quality;
+    }
+
+    public void setQuality(int quality) {
+        this.quality = quality;
+    }
+
 }

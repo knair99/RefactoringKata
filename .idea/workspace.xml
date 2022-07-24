@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd24dc7a-865e-4ecd-8b91-91f10466259c" name="Changes" comment="" />
+    <list default="true" id="cd24dc7a-865e-4ecd-8b91-91f10466259c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/gildedrose/GildedRoseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/GildedRose.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/GildedRose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/AgedBrieItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/AgedBrieItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/BackStagePassItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/BackStagePassItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/DefaultItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/DefaultItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/lab-05-JavaEclipseGildedRose-master/gildedrose/items/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/test/lab-05-JavaEclipseGildedRose-master/gildedrose/GildedRoseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/test/lab-05-JavaEclipseGildedRose-master/gildedrose/GildedRoseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/GildedRose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/GildedRose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/items/AgedBrieItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/items/AgedBrieItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/items/BackStagePassItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/items/BackStagePassItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/items/DefaultItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/items/DefaultItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gildedrose/items/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gildedrose/items/Item.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +35,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CF2CMBBV2yAL0Sr6Kf4KeJPpyk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -36,6 +58,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_directory_selection": "/Users/kprasad/Desktop/READ/REFACTOR/lab-05-JavaEclipseGildedRose-master/src/gildedrose",
     "last_opened_file_path": "/Users/kprasad/Desktop/READ/REFACTOR/lab-05-JavaEclipseGildedRose-master",
@@ -43,12 +66,16 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="gildedrose.GildedItems" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="gildedrose.items" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.GildedRoseTest">
@@ -96,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GildedRoseTest.testAgedBrieWithNegativeSellinAndPositiveQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab-05-JavaEclipseGildedRose-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gildedrose.items.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gildedrose" />
-      <option name="MAIN_CLASS_NAME" value="gildedrose.GildedRoseTest" />
-      <option name="METHOD_NAME" value="testAgedBrieWithNegativeSellinAndPositiveQuality" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GildedRoseTest.testBackstagePassWithNegativeSellinAndPositiveQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab-05-JavaEclipseGildedRose-master" />
       <extension name="coverage">
@@ -128,13 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GildedRoseTest.testRandomItemWithNegativeSellinAndNegativeQuality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab-05-JavaEclipseGildedRose-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gildedrose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gildedrose" />
+      <option name="MAIN_CLASS_NAME" value="gildedrose.GildedRoseTest" />
+      <option name="METHOD_NAME" value="testRandomItemWithNegativeSellinAndNegativeQuality" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GildedRoseTest" />
+        <item itemvalue="JUnit.GildedRoseTest.testRandomItemWithNegativeSellinAndNegativeQuality" />
         <item itemvalue="Application.gildedrose.Main" />
         <item itemvalue="JUnit.GildedRoseTest.testAgedBrieWithNegativeSellinAndHighestQuality" />
         <item itemvalue="JUnit.GildedRoseTest.testBackstagePassWithNegativeSellinAndPositiveQuality" />
-        <item itemvalue="JUnit.GildedRoseTest.testAgedBrieWithNegativeSellinAndPositiveQuality" />
       </list>
     </recent_temporary>
   </component>
@@ -148,12 +175,23 @@
       <updated>1658383883220</updated>
       <workItem from="1658383884357" duration="19000" />
       <workItem from="1658383904736" duration="983000" />
-      <workItem from="1658436311914" duration="21304000" />
+      <workItem from="1658436311914" duration="24234000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
